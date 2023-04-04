@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DZ_3</title>
+</head>
+<body>
+    <div class="form-choice">
+        <a href="index.html">1</a>
+        <a href="form2.html">2</a>
+        <a href="form3.html">3</a>
+    </div>
+    <div class="main2">
+        <form action="">
+            <div class="top2">
+                <h3>
+                    Форма оформления заказа
+                </h3>
+            </div>
+            <div class="center2">
+                <div>
+                    <label class="star" for="full_name">ФИО:</label> <br>
+                    <input required id="full_name" type="text" name="full_name" minlength="12" maxlength="30">
+                </div>
+                <div>
+                    <label class="star" for="email">E-mail:</label> <br>
+                    <input required id="email" type="email" name="email" minlength="10" maxlength="30">
+                </div>
+                <div>
+                    <label for="phone">Телефон:</label> <br>
+                    <input id="phone" type="tel" name="phone" minlength="10" maxlength="20">
+                </div>
+                <div>
+                    <label class="star" for="number-product">Наименование товара:</label> <br>
+                    <select required name="number-product" id="number-product">
+                        <option value="Product1">Товар №1</option>
+                        <option value="Product2">Товар №2</option>
+                        <option value="Product3">Товар №3</option>
+                        <option value="Product4">Товар №4</option>
+                        <option value="Product5">Товар №5</option>
+                        <option value="Product6">Товар №6</option>
+                        <option value="Product7">Товар №7</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="star" for="quantity">Количество:</label> <br>
+                    <input required id="quantity" type="number" name="quantity">
+                </div>
+                <div>
+                    <label class="star" for="date-of-birht">Дата доставки:</label> <br>
+                    <input required id="date-of-birht" type="date" name="date-of-birht">
+                </div>
+            </div>
+            <div class="bottom2">
+                <input class="submit2" type="submit" value="Отправить">
+                <input class="cancel2" type="reset" value="Очистить">
+            </div>
+        </form>
+    </div class="main">
+    
+</body>
+</html>
